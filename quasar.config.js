@@ -9,6 +9,7 @@
 // https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js
 
 
+const { Notify } = require('quasar');
 const { configure } = require('quasar/wrappers');
 
 module.exports = configure(function (ctx) {
